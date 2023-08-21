@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>
+        <%= user.name %>'s Profile
+    </h1>
+    <p><strong>Name:</strong>
+        <%= user.name %>
+    </p>
+    <p><strong>Email:</strong>
+        <%= user.email %>
+    </p>
+    <p><strong>About:</strong>
+        <%= user.about %>
+    </p>
+    <div class="anchor-wrapper">
+        <a href="/users/sign-out">Sign Out</a>
+        <a href="/users/change-password">Change Password</a>
+    </div>
+</div>
