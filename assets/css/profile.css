@@ -37,8 +37,8 @@ p {
 
 .anchor-wrapper a {
   display: inline-block;
-  background-color: aqua;
-  color: white;
+  background-color: rgb(103, 181, 181);
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   border-radius: 4px;
   text-decoration: none;
@@ -46,5 +46,5 @@ p {
 }
 
 .anchor-wrapper a:hover {
-  background-color: aqua;
+  background-color: rgb(103, 181, 181);
 }
