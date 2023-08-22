@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 //setup connection  to the database
 mongoose.connect(
-  "mongodb://localhost:27017/authUser"
+  "mongodb+srv://narayan97nk:9iMTfEsgVESwehuS@cluster0.awfbvzs.mongodb.net/"
 );
 
 const db = mongoose.connection;
