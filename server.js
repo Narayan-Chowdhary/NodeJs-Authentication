@@ -44,7 +44,7 @@ app.use(
     store: MongoStore.create(
       {
         mongoUrl:
-          "mongodb://localhost:27017/authUser", //mongo connection link
+          "mongodb+srv://narayan97nk:9iMTfEsgVESwehuS@cluster0.awfbvzs.mongodb.net/", //mongo connection link
         collectionName: "sessions",
         autoRemove: "disabled",
       },
